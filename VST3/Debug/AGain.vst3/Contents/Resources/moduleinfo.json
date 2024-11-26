@@ -1,0 +1,51 @@
+{
+  "Name": "AGain",
+  "Version": "1.0.0.0",
+  "Factory Info": {
+    "Vendor": "",
+    "URL": "",
+    "E-Mail": "mailto:",
+    "Flags": {
+      "Unicode": true,
+      "Classes Discardable": false,
+      "Component Non Discardable": false,
+    },
+  },
+  "Classes": [
+    {
+      "CID": "C33201CEF6CB5167A4CAC7EAB9ACD50E",
+      "Category": "Audio Module Class",
+      "Name": "AGain",
+      "Vendor": "",
+      "Version": "1.0.0.0",
+      "SDKVersion": "VST 3.7.12",
+      "Sub Categories": [
+        "Fx",
+      ],
+      "Class Flags": 1,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+        {
+          "Scale Factor": 1,
+          "Path": "Contents/Resources/Snapshots/C33201CEF6CB5167A4CAC7EAB9ACD50E_snapshot.png",
+        },
+        {
+          "Scale Factor": 2,
+          "Path": "Contents/Resources/Snapshots/C33201CEF6CB5167A4CAC7EAB9ACD50E_snapshot_2.0x.png",
+        },
+      ],
+    },
+    {
+      "CID": "211194D1D2CD5AA1860FF1644A25339F",
+      "Category": "Component Controller Class",
+      "Name": "AGainController",
+      "Vendor": "",
+      "Version": "1.0.0.0",
+      "SDKVersion": "VST 3.7.12",
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+  ],
+}

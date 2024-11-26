@@ -1,0 +1,103 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "7d6ce3cad7e6c2c0fe8eee0e2f5eb18dc50d9bbff7c842c04f7229efed606e78"
+    },
+    {
+      "guid" : "7d6ce3cad7e6c2c0fe8eee0e2f5eb18d9211df83968dd0bdb2c4769f8f293684"
+    },
+    {
+      "guid" : "7d6ce3cad7e6c2c0fe8eee0e2f5eb18d5e0d285b9425089848fd84eeace8e8fb"
+    },
+    {
+      "guid" : "7d6ce3cad7e6c2c0fe8eee0e2f5eb18d50b71ac5846395c5d1fdbeab402409bd"
+    },
+    {
+      "guid" : "7d6ce3cad7e6c2c0fe8eee0e2f5eb18d6a0ec0f46967a7e57326b394d8985240"
+    },
+    {
+      "guid" : "7d6ce3cad7e6c2c0fe8eee0e2f5eb18d4e6ef796b1ba45ff81be29370bdd80ce"
+    },
+    {
+      "guid" : "7d6ce3cad7e6c2c0fe8eee0e2f5eb18d2d8caf63462c210e7848ed80bc423a28"
+    },
+    {
+      "guid" : "7d6ce3cad7e6c2c0fe8eee0e2f5eb18d34291775c1e6527ca922c811095239fa"
+    },
+    {
+      "guid" : "7d6ce3cad7e6c2c0fe8eee0e2f5eb18d2a8dcb57685c0d5d67f511884f563e18"
+    },
+    {
+      "guid" : "7d6ce3cad7e6c2c0fe8eee0e2f5eb18d12ef81d80a8cf9ba2eafd97d39c7e322"
+    },
+    {
+      "guid" : "7d6ce3cad7e6c2c0fe8eee0e2f5eb18d0310495861eafd228a071d1a3fba2ddb"
+    },
+    {
+      "guid" : "7d6ce3cad7e6c2c0fe8eee0e2f5eb18dc950d56aefd18c9ba777b6dccc658f37"
+    },
+    {
+      "guid" : "7d6ce3cad7e6c2c0fe8eee0e2f5eb18de0bc6ef2b50f3dad44c84e92bbed3cc1"
+    },
+    {
+      "guid" : "7d6ce3cad7e6c2c0fe8eee0e2f5eb18de505ca58ea2ee1d2251b2c81587ae6c0"
+    },
+    {
+      "guid" : "7d6ce3cad7e6c2c0fe8eee0e2f5eb18d0a4d10535b412c427fccc57f9ffc17c1"
+    },
+    {
+      "guid" : "7d6ce3cad7e6c2c0fe8eee0e2f5eb18d3645e809c37b4c21a62d1cdd3191eafd"
+    }
+  ],
+  "containerPath" : "/Users/melons/Documents/Code/MelonsVSTS/AGain/build/AGain.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx15.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/melons/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/melons/Library/Developer/Xcode/DerivedData/AGain-dzyykgnqieghglfvnmmdjfmidqrq/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/melons/Library/Developer/Xcode/DerivedData/AGain-dzyykgnqieghglfvnmmdjfmidqrq/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

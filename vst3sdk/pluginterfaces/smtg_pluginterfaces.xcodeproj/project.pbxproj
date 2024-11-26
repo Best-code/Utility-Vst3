@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B78079776B0407684277DFDB /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9BB192B8D8E84204A53747B9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A345A9D3D730E4365EC27AC1 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				2AEEA2EA39D04514862D175B /* PBXTargetDependency */,
+				CEC6425E1321468D83AF5E70 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		D61601B5E1D5F770DD13CC69 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B176357296984BA582953396 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F6565CDC4028AA49A9A6CD84 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00380898236F4C739DE0DE00 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstautomationstate.h */ = {isa = PBXBuildFile; fileRef = F4A77EBC719E413C91C81654 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstautomationstate.h */; };
+		02C4651C4171496D9D111BC8 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/funknown.cpp */ = {isa = PBXBuildFile; fileRef = DFA752B9C12D4BEB86BA8066 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/funknown.cpp */; };
+		05B361CEACF2401E833B9F9A /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstchannelcontextinfo.h */ = {isa = PBXBuildFile; fileRef = 72AA182A6E07401CBE3097B6 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstchannelcontextinfo.h */; };
+		0843D91D281D4BBDB7AEFE98 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstmidilearn.h */ = {isa = PBXBuildFile; fileRef = 2A9E11B1D025449EA21ED002 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstmidilearn.h */; };
+		093BFDE53CFE4014B88DB8C1 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/vstpshpack4.h */ = {isa = PBXBuildFile; fileRef = C6411B4A186C4E8D8E72D397 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/vstpshpack4.h */; };
+		09DB12F7B5224FE39F5AB28F /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstrepresentation.h */ = {isa = PBXBuildFile; fileRef = 8FCDDDCFF3A54C60B0908B63 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstrepresentation.h */; };
+		0D3A0F36FE3C49C8800C5ED2 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/fplatform.h */ = {isa = PBXBuildFile; fileRef = FF7F0B26138C467D9CE3A117 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/fplatform.h */; };
+		0FA5DE2FFC3F482DAE181656 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstnoteexpression.h */ = {isa = PBXBuildFile; fileRef = 15AB2482DFB844408C65D9E6 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstnoteexpression.h */; };
+		1E0C925285D84FCAAA96AE49 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstmidicontrollers.h */ = {isa = PBXBuildFile; fileRef = ABBE1D410050412C8E7B119A /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstmidicontrollers.h */; };
+		2347F5094A52477D9B321047 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ustring.cpp */ = {isa = PBXBuildFile; fileRef = 899E3270B3004B2EB252E028 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ustring.cpp */; };
+		2CFCB2B1D7C94B72A28C7E27 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivsthostapplication.h */ = {isa = PBXBuildFile; fileRef = 72BF28A78AC3481F8F3B0F10 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivsthostapplication.h */; };
+		3077FC5F690B4D33ABE7635D /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstremapparamid.h */ = {isa = PBXBuildFile; fileRef = 3618F13E69C743B3B62FEA41 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstremapparamid.h */; };
+		3363F94A4B474F1D9FC09BA3 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/gui/iplugviewcontentscalesupport.h */ = {isa = PBXBuildFile; fileRef = 7FC522A5C990493396320B08 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/gui/iplugviewcontentscalesupport.h */; };
+		372E7D62503B4EAD93837186 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h */ = {isa = PBXBuildFile; fileRef = EA6B61A072674BFD878A7FEE /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h */; };
+		382CDF8E020F44328F8D1826 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/vstpresetkeys.h */ = {isa = PBXBuildFile; fileRef = 6FE6ADA9721F4FC3AE81F443 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/vstpresetkeys.h */; };
+		3925F1DF43D04771AABC69E3 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/futils.h */ = {isa = PBXBuildFile; fileRef = E0E0401987914450A9B9C913 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/futils.h */; };
+		3BC6AED47DA34CB5AD62535B /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstdataexchange.h */ = {isa = PBXBuildFile; fileRef = 69D9B4B3B167486A97D42E20 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstdataexchange.h */; };
+		3C921A78CED74B49A5B477E9 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/falignpush.h */ = {isa = PBXBuildFile; fileRef = B22F4C62EEB7438EB493AF92 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/falignpush.h */; };
+		41E13CE64722496088437B5A /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/geoconstants.h */ = {isa = PBXBuildFile; fileRef = FEE4A1B48348413DB3BB0EB0 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/geoconstants.h */; };
+		4239444DF6674BBA9474605D /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/gui/iplugview.h */ = {isa = PBXBuildFile; fileRef = 78EAFF5694B54FF5BDE8157B /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/gui/iplugview.h */; };
+		464F230C8578425AB6EBE303 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstcontextmenu.h */ = {isa = PBXBuildFile; fileRef = BA6F0272D1FD42A5BD6BD957 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstcontextmenu.h */; };
+		47D09BA0392A413D82F5D0F7 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/smartpointer.h */ = {isa = PBXBuildFile; fileRef = BCB418A95AE745068EC09549 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/smartpointer.h */; };
+		487A9C5C56EB4D3AB14098CA /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstphysicalui.h */ = {isa = PBXBuildFile; fileRef = 45B37B556B134F1ABD218E6F /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstphysicalui.h */; };
+		5212675443C04B2F9DAF5D0C /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/iupdatehandler.h */ = {isa = PBXBuildFile; fileRef = AB9EE5F443F34063A2E25A69 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/iupdatehandler.h */; };
+		5389BFD69D74404EB5DC79B0 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/falignpop.h */ = {isa = PBXBuildFile; fileRef = 6C5FF7A772A84966859C837E /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/falignpop.h */; };
+		56DF315ECE57406FA8AF7C47 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/typesizecheck.h */ = {isa = PBXBuildFile; fileRef = 1913D3AEABC94C8CA6259CF2 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/typesizecheck.h */; };
+		56DF4E1E80394B759BEF7B60 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ustring.h */ = {isa = PBXBuildFile; fileRef = AF1FE5B152314916B4EF19B2 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ustring.h */; };
+		62DD3CEF430A4210BC4C5C37 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/vstspeaker.h */ = {isa = PBXBuildFile; fileRef = DAA08038EC784C5AA104CEC3 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/vstspeaker.h */; };
+		679010D0E4BE44B7B955838D /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ucolorspec.h */ = {isa = PBXBuildFile; fileRef = 2E7E217F56354B8DB222A947 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ucolorspec.h */; };
+		6B1D8951EF914D08AF9E295F /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstinterappaudio.h */ = {isa = PBXBuildFile; fileRef = 87BD3541F99D45F883CD058B /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstinterappaudio.h */; };
+		6C484FB0FF0A45C78965A3E4 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstprefetchablesupport.h */ = {isa = PBXBuildFile; fileRef = 94038C33B0F14EBCA243D9E5 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstprefetchablesupport.h */; };
+		6EDDB38F1B4C4C10BFA1E171 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ibstream.h */ = {isa = PBXBuildFile; fileRef = 53EE1C205FCE4CCBA36DE060 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ibstream.h */; };
+		7263349A726F44BE8AEDD097 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ftypes.h */ = {isa = PBXBuildFile; fileRef = 6F47A97CD46D4C55912BC998 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ftypes.h */; };
+		7B504A3CEABF48CD80D0D070 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/coreiids.cpp */ = {isa = PBXBuildFile; fileRef = EFD68F46812F4E9F94E06987 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/coreiids.cpp */; };
+		7C4A833355064185A1C1E610 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/vsttypes.h */ = {isa = PBXBuildFile; fileRef = A03A884E5C7946D7862F2E45 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/vsttypes.h */; };
+		802353425D0C4096951D21C6 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstattributes.h */ = {isa = PBXBuildFile; fileRef = 5EC157368855479F909BA0B8 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstattributes.h */; };
+		84784B1B98B1463EB0EF6A7A /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/pluginbasefwd.h */ = {isa = PBXBuildFile; fileRef = E0B589B33A504DE993659EA1 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/pluginbasefwd.h */; };
+		8976F8846A7D4E77B0D5563F /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ipersistent.h */ = {isa = PBXBuildFile; fileRef = 0171200B4F624BD5ACF7B4F6 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ipersistent.h */; };
+		8C0EF41D3086448DB035A4E9 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/conststringtable.h */ = {isa = PBXBuildFile; fileRef = 8F1BD5E7D8874244BCB64EF2 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/conststringtable.h */; };
+		8FD31B199DD94217AA823C48 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DDBFCFFF869848BAA76911C1 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/CMakeLists.txt */; };
+		903606A9BBB642869ED73C67 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/fstrdefs.h */ = {isa = PBXBuildFile; fileRef = 35BC9D8BB4CF474B8EEA27FA /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/fstrdefs.h */; };
+		91AE61BBC5B74DE0B11CE7A5 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstpluginterfacesupport.h */ = {isa = PBXBuildFile; fileRef = 42D6A0C45E354AF69376DFE6 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstpluginterfacesupport.h */; };
+		960F7A66B2184C5DBFF18865 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstmessage.h */ = {isa = PBXBuildFile; fileRef = 9C69639001AC4DCBB6BC241D /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstmessage.h */; };
+		A12080D925DE4AA08E694829 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ierrorcontext.h */ = {isa = PBXBuildFile; fileRef = 745206ED250F4137A3E7901F /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ierrorcontext.h */; };
+		A61722804AF74D018CDE14B9 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/conststringtable.cpp */ = {isa = PBXBuildFile; fileRef = 2B9201D03E23413989E9ADD5 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/conststringtable.cpp */; };
+		A69F874FE4364FA0B2967D09 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/icloneable.h */ = {isa = PBXBuildFile; fileRef = 2564BB9EAEFF4FC9889FEEF6 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/icloneable.h */; };
+		A6C1A501F2B7497D9BCDF07F /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstevents.h */ = {isa = PBXBuildFile; fileRef = 296360EE8E684E39A147196B /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstevents.h */; };
+		AB4176C17B7348A1A4393670 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstparameterchanges.h */ = {isa = PBXBuildFile; fileRef = F1B40D26FF5349408E06C0F8 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstparameterchanges.h */; };
+		AD63A02D1D5148D58101C139 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h */ = {isa = PBXBuildFile; fileRef = 2576FEE6F4E14212A6D62EB8 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h */; };
+		B9AAD71CC1774BE19AEB8A69 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/keycodes.h */ = {isa = PBXBuildFile; fileRef = 28231365F99B4D18A8C6AC0D /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/keycodes.h */; };
+		CDF5AF104F26413DA7C30126 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstunits.h */ = {isa = PBXBuildFile; fileRef = 2F83441A14224928AFFD6C2E /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstunits.h */; };
+		D1A39E0EBB564497AABBBA10 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstprocesscontext.h */ = {isa = PBXBuildFile; fileRef = 20F0B837F96E4AE996F2401E /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstprocesscontext.h */; };
+		D2D3CC691C6F45B4A392D8FC /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ipluginbase.h */ = {isa = PBXBuildFile; fileRef = 72168D454D23482EB626AEE1 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ipluginbase.h */; };
+		D50E1158916E48BEAE0A2DD5 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/funknownimpl.h */ = {isa = PBXBuildFile; fileRef = DAFD8A61A40F4BED8CC2E75C /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/funknownimpl.h */; };
+		E9C67126F2B749F588E2A16E /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/funknown.h */ = {isa = PBXBuildFile; fileRef = 215EDDD97B7B440AA4B927C6 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/funknown.h */; };
+		EA29D43F196144CCA4B10A51 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstparameterfunctionname.h */ = {isa = PBXBuildFile; fileRef = A037A5C752D048728275977B /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstparameterfunctionname.h */; };
+		EF9768E5BAB84149B0CB2EB7 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstplugview.h */ = {isa = PBXBuildFile; fileRef = 57F0D4C9EC904DA3A604F09E /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstplugview.h */; };
+		F51DEDF9594A417AAE0A80EB /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/istringresult.h */ = {isa = PBXBuildFile; fileRef = B97274D39B6D476CA36941AF /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/istringresult.h */; };
+		FA209F674AE34F35BADBBB9D /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/fvariant.h */ = {isa = PBXBuildFile; fileRef = 2B9299020F4144F0A958C192 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/fvariant.h */; };
+		FFA6323B9CD548D1A59CE56A /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstcomponent.h */ = {isa = PBXBuildFile; fileRef = A42EA960CD854BAFB56D1245 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstcomponent.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		8D533F21814A468F99464F98 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		FC4FA83968E246B092A06575 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2570CA4C888C42329CE962DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B1563BD0E544F7FA03AB787 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D61601B5E1D5F770DD13CC69;
+			remoteInfo = ZERO_CHECK;
+		};
+		7F7AC1A7E0FB4369A098AA3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B1563BD0E544F7FA03AB787 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D61601B5E1D5F770DD13CC69;
+			remoteInfo = ZERO_CHECK;
+		};
+		E1F51AF4F716462E81118A24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B1563BD0E544F7FA03AB787 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF62E78AF7A6E13883678CD;
+			remoteInfo = pluginterfaces;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0171200B4F624BD5ACF7B4F6 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ipersistent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ipersistent.h; path = base/ipersistent.h; sourceTree = SOURCE_ROOT; };
+		15AB2482DFB844408C65D9E6 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstnoteexpression.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstnoteexpression.h; path = vst/ivstnoteexpression.h; sourceTree = SOURCE_ROOT; };
+		1913D3AEABC94C8CA6259CF2 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/typesizecheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = typesizecheck.h; path = base/typesizecheck.h; sourceTree = SOURCE_ROOT; };
+		20F0B837F96E4AE996F2401E /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstprocesscontext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstprocesscontext.h; path = vst/ivstprocesscontext.h; sourceTree = SOURCE_ROOT; };
+		215EDDD97B7B440AA4B927C6 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/funknown.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = funknown.h; path = base/funknown.h; sourceTree = SOURCE_ROOT; };
+		2564BB9EAEFF4FC9889FEEF6 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/icloneable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = icloneable.h; path = base/icloneable.h; sourceTree = SOURCE_ROOT; };
+		2576FEE6F4E14212A6D62EB8 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivsteditcontroller.h; path = vst/ivsteditcontroller.h; sourceTree = SOURCE_ROOT; };
+		28231365F99B4D18A8C6AC0D /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/keycodes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = keycodes.h; path = base/keycodes.h; sourceTree = SOURCE_ROOT; };
+		296360EE8E684E39A147196B /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstevents.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstevents.h; path = vst/ivstevents.h; sourceTree = SOURCE_ROOT; };
+		2A9E11B1D025449EA21ED002 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstmidilearn.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstmidilearn.h; path = vst/ivstmidilearn.h; sourceTree = SOURCE_ROOT; };
+		2B9201D03E23413989E9ADD5 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/conststringtable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = conststringtable.cpp; path = base/conststringtable.cpp; sourceTree = SOURCE_ROOT; };
+		2B9299020F4144F0A958C192 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/fvariant.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fvariant.h; path = base/fvariant.h; sourceTree = SOURCE_ROOT; };
+		2E7E217F56354B8DB222A947 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ucolorspec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ucolorspec.h; path = base/ucolorspec.h; sourceTree = SOURCE_ROOT; };
+		2F83441A14224928AFFD6C2E /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstunits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstunits.h; path = vst/ivstunits.h; sourceTree = SOURCE_ROOT; };
+		35BC9D8BB4CF474B8EEA27FA /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/fstrdefs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fstrdefs.h; path = base/fstrdefs.h; sourceTree = SOURCE_ROOT; };
+		3618F13E69C743B3B62FEA41 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstremapparamid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstremapparamid.h; path = vst/ivstremapparamid.h; sourceTree = SOURCE_ROOT; };
+		42D6A0C45E354AF69376DFE6 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstpluginterfacesupport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstpluginterfacesupport.h; path = vst/ivstpluginterfacesupport.h; sourceTree = SOURCE_ROOT; };
+		45B37B556B134F1ABD218E6F /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstphysicalui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstphysicalui.h; path = vst/ivstphysicalui.h; sourceTree = SOURCE_ROOT; };
+		53EE1C205FCE4CCBA36DE060 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ibstream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ibstream.h; path = base/ibstream.h; sourceTree = SOURCE_ROOT; };
+		57F0D4C9EC904DA3A604F09E /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstplugview.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstplugview.h; path = vst/ivstplugview.h; sourceTree = SOURCE_ROOT; };
+		5EC157368855479F909BA0B8 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstattributes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstattributes.h; path = vst/ivstattributes.h; sourceTree = SOURCE_ROOT; };
+		69D9B4B3B167486A97D42E20 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstdataexchange.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstdataexchange.h; path = vst/ivstdataexchange.h; sourceTree = SOURCE_ROOT; };
+		6C5FF7A772A84966859C837E /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/falignpop.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = falignpop.h; path = base/falignpop.h; sourceTree = SOURCE_ROOT; };
+		6F47A97CD46D4C55912BC998 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ftypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftypes.h; path = base/ftypes.h; sourceTree = SOURCE_ROOT; };
+		6FE6ADA9721F4FC3AE81F443 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/vstpresetkeys.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstpresetkeys.h; path = vst/vstpresetkeys.h; sourceTree = SOURCE_ROOT; };
+		72168D454D23482EB626AEE1 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ipluginbase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ipluginbase.h; path = base/ipluginbase.h; sourceTree = SOURCE_ROOT; };
+		72AA182A6E07401CBE3097B6 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstchannelcontextinfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstchannelcontextinfo.h; path = vst/ivstchannelcontextinfo.h; sourceTree = SOURCE_ROOT; };
+		72BF28A78AC3481F8F3B0F10 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivsthostapplication.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivsthostapplication.h; path = vst/ivsthostapplication.h; sourceTree = SOURCE_ROOT; };
+		745206ED250F4137A3E7901F /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ierrorcontext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ierrorcontext.h; path = base/ierrorcontext.h; sourceTree = SOURCE_ROOT; };
+		78EAFF5694B54FF5BDE8157B /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/gui/iplugview.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iplugview.h; path = gui/iplugview.h; sourceTree = SOURCE_ROOT; };
+		7FC522A5C990493396320B08 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/gui/iplugviewcontentscalesupport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iplugviewcontentscalesupport.h; path = gui/iplugviewcontentscalesupport.h; sourceTree = SOURCE_ROOT; };
+		87BD3541F99D45F883CD058B /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstinterappaudio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstinterappaudio.h; path = vst/ivstinterappaudio.h; sourceTree = SOURCE_ROOT; };
+		899E3270B3004B2EB252E028 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ustring.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ustring.cpp; path = base/ustring.cpp; sourceTree = SOURCE_ROOT; };
+		8ECDB2521A174646BDE4AD63 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8F1BD5E7D8874244BCB64EF2 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/conststringtable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = conststringtable.h; path = base/conststringtable.h; sourceTree = SOURCE_ROOT; };
+		8FCDDDCFF3A54C60B0908B63 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstrepresentation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstrepresentation.h; path = vst/ivstrepresentation.h; sourceTree = SOURCE_ROOT; };
+		94038C33B0F14EBCA243D9E5 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstprefetchablesupport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstprefetchablesupport.h; path = vst/ivstprefetchablesupport.h; sourceTree = SOURCE_ROOT; };
+		9C69639001AC4DCBB6BC241D /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstmessage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstmessage.h; path = vst/ivstmessage.h; sourceTree = SOURCE_ROOT; };
+		A037A5C752D048728275977B /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstparameterfunctionname.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstparameterfunctionname.h; path = vst/ivstparameterfunctionname.h; sourceTree = SOURCE_ROOT; };
+		A03A884E5C7946D7862F2E45 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/vsttypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vsttypes.h; path = vst/vsttypes.h; sourceTree = SOURCE_ROOT; };
+		A42EA960CD854BAFB56D1245 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstcomponent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstcomponent.h; path = vst/ivstcomponent.h; sourceTree = SOURCE_ROOT; };
+		A78C078CA692492E980362A7 /* pluginterfaces */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libpluginterfaces.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9EE5F443F34063A2E25A69 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/iupdatehandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iupdatehandler.h; path = base/iupdatehandler.h; sourceTree = SOURCE_ROOT; };
+		ABBE1D410050412C8E7B119A /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstmidicontrollers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstmidicontrollers.h; path = vst/ivstmidicontrollers.h; sourceTree = SOURCE_ROOT; };
+		AF1FE5B152314916B4EF19B2 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ustring.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ustring.h; path = base/ustring.h; sourceTree = SOURCE_ROOT; };
+		B22F4C62EEB7438EB493AF92 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/falignpush.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = falignpush.h; path = base/falignpush.h; sourceTree = SOURCE_ROOT; };
+		B97274D39B6D476CA36941AF /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/istringresult.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = istringresult.h; path = base/istringresult.h; sourceTree = SOURCE_ROOT; };
+		BA6F0272D1FD42A5BD6BD957 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstcontextmenu.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstcontextmenu.h; path = vst/ivstcontextmenu.h; sourceTree = SOURCE_ROOT; };
+		BCB418A95AE745068EC09549 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/smartpointer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = smartpointer.h; path = base/smartpointer.h; sourceTree = SOURCE_ROOT; };
+		C6411B4A186C4E8D8E72D397 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/vstpshpack4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstpshpack4.h; path = vst/vstpshpack4.h; sourceTree = SOURCE_ROOT; };
+		DAA08038EC784C5AA104CEC3 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/vstspeaker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstspeaker.h; path = vst/vstspeaker.h; sourceTree = SOURCE_ROOT; };
+		DAFD8A61A40F4BED8CC2E75C /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/funknownimpl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = funknownimpl.h; path = base/funknownimpl.h; sourceTree = SOURCE_ROOT; };
+		DDBFCFFF869848BAA76911C1 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DFA752B9C12D4BEB86BA8066 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/funknown.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = funknown.cpp; path = base/funknown.cpp; sourceTree = SOURCE_ROOT; };
+		E0B589B33A504DE993659EA1 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/pluginbasefwd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pluginbasefwd.h; path = base/pluginbasefwd.h; sourceTree = SOURCE_ROOT; };
+		E0E0401987914450A9B9C913 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/futils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = futils.h; path = base/futils.h; sourceTree = SOURCE_ROOT; };
+		EA6B61A072674BFD878A7FEE /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstaudioprocessor.h; path = vst/ivstaudioprocessor.h; sourceTree = SOURCE_ROOT; };
+		EFD68F46812F4E9F94E06987 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/coreiids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = coreiids.cpp; path = base/coreiids.cpp; sourceTree = SOURCE_ROOT; };
+		F1B40D26FF5349408E06C0F8 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstparameterchanges.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstparameterchanges.h; path = vst/ivstparameterchanges.h; sourceTree = SOURCE_ROOT; };
+		F4A77EBC719E413C91C81654 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstautomationstate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstautomationstate.h; path = vst/ivstautomationstate.h; sourceTree = SOURCE_ROOT; };
+		FEE4A1B48348413DB3BB0EB0 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/geoconstants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = geoconstants.h; path = base/geoconstants.h; sourceTree = SOURCE_ROOT; };
+		FF7F0B26138C467D9CE3A117 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/fplatform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fplatform.h; path = base/fplatform.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB297A93199483AB3F54129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		066B4AB00C1B45E6B0E313C3 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				4F9525472BBE424C99728DBE /* CMake Rules */,
+				8ECDB2521A174646BDE4AD63 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		0A66D6A7856D47C0A18E3A14 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B9201D03E23413989E9ADD5 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/conststringtable.cpp */,
+				EFD68F46812F4E9F94E06987 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/coreiids.cpp */,
+				DFA752B9C12D4BEB86BA8066 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/funknown.cpp */,
+				899E3270B3004B2EB252E028 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ustring.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		0BE820842B2E41AEB8A496B6 /* pluginterfaces */ = {
+			isa = PBXGroup;
+			children = (
+				0A66D6A7856D47C0A18E3A14 /* Source Files */,
+				48EDBBB3C39A474E912399F1 /* Header Files */,
+				DDBFCFFF869848BAA76911C1 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/CMakeLists.txt */,
+			);
+			name = pluginterfaces;
+			sourceTree = "<group>";
+		};
+		163212EB84EE48818E3E621E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2F5CF0DF6A164D36A263C57C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48EDBBB3C39A474E912399F1 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F1BD5E7D8874244BCB64EF2 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/conststringtable.h */,
+				6C5FF7A772A84966859C837E /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/falignpop.h */,
+				B22F4C62EEB7438EB493AF92 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/falignpush.h */,
+				FF7F0B26138C467D9CE3A117 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/fplatform.h */,
+				35BC9D8BB4CF474B8EEA27FA /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/fstrdefs.h */,
+				6F47A97CD46D4C55912BC998 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ftypes.h */,
+				215EDDD97B7B440AA4B927C6 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/funknown.h */,
+				DAFD8A61A40F4BED8CC2E75C /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/funknownimpl.h */,
+				E0E0401987914450A9B9C913 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/futils.h */,
+				2B9299020F4144F0A958C192 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/fvariant.h */,
+				FEE4A1B48348413DB3BB0EB0 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/geoconstants.h */,
+				53EE1C205FCE4CCBA36DE060 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ibstream.h */,
+				2564BB9EAEFF4FC9889FEEF6 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/icloneable.h */,
+				745206ED250F4137A3E7901F /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ierrorcontext.h */,
+				0171200B4F624BD5ACF7B4F6 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ipersistent.h */,
+				72168D454D23482EB626AEE1 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ipluginbase.h */,
+				B97274D39B6D476CA36941AF /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/istringresult.h */,
+				AB9EE5F443F34063A2E25A69 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/iupdatehandler.h */,
+				28231365F99B4D18A8C6AC0D /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/keycodes.h */,
+				E0B589B33A504DE993659EA1 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/pluginbasefwd.h */,
+				BCB418A95AE745068EC09549 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/smartpointer.h */,
+				1913D3AEABC94C8CA6259CF2 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/typesizecheck.h */,
+				2E7E217F56354B8DB222A947 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ucolorspec.h */,
+				AF1FE5B152314916B4EF19B2 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ustring.h */,
+				78EAFF5694B54FF5BDE8157B /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/gui/iplugview.h */,
+				7FC522A5C990493396320B08 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/gui/iplugviewcontentscalesupport.h */,
+				5EC157368855479F909BA0B8 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstattributes.h */,
+				EA6B61A072674BFD878A7FEE /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h */,
+				F4A77EBC719E413C91C81654 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstautomationstate.h */,
+				72AA182A6E07401CBE3097B6 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstchannelcontextinfo.h */,
+				A42EA960CD854BAFB56D1245 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstcomponent.h */,
+				BA6F0272D1FD42A5BD6BD957 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstcontextmenu.h */,
+				69D9B4B3B167486A97D42E20 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstdataexchange.h */,
+				2576FEE6F4E14212A6D62EB8 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h */,
+				296360EE8E684E39A147196B /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstevents.h */,
+				72BF28A78AC3481F8F3B0F10 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivsthostapplication.h */,
+				87BD3541F99D45F883CD058B /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstinterappaudio.h */,
+				9C69639001AC4DCBB6BC241D /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstmessage.h */,
+				ABBE1D410050412C8E7B119A /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstmidicontrollers.h */,
+				2A9E11B1D025449EA21ED002 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstmidilearn.h */,
+				15AB2482DFB844408C65D9E6 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstnoteexpression.h */,
+				F1B40D26FF5349408E06C0F8 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstparameterchanges.h */,
+				A037A5C752D048728275977B /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstparameterfunctionname.h */,
+				45B37B556B134F1ABD218E6F /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstphysicalui.h */,
+				42D6A0C45E354AF69376DFE6 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstpluginterfacesupport.h */,
+				57F0D4C9EC904DA3A604F09E /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstplugview.h */,
+				94038C33B0F14EBCA243D9E5 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstprefetchablesupport.h */,
+				20F0B837F96E4AE996F2401E /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstprocesscontext.h */,
+				3618F13E69C743B3B62FEA41 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstremapparamid.h */,
+				8FCDDDCFF3A54C60B0908B63 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstrepresentation.h */,
+				2F83441A14224928AFFD6C2E /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/ivstunits.h */,
+				6FE6ADA9721F4FC3AE81F443 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/vstpresetkeys.h */,
+				C6411B4A186C4E8D8E72D397 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/vstpshpack4.h */,
+				DAA08038EC784C5AA104CEC3 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/vstspeaker.h */,
+				A03A884E5C7946D7862F2E45 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/vst/vsttypes.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		4F9525472BBE424C99728DBE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		53478F9FC20A47E5BAFA4ECE /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				0BE820842B2E41AEB8A496B6 /* pluginterfaces */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		81D4307A84B546C58CFE1E73 = {
+			isa = PBXGroup;
+			children = (
+				53478F9FC20A47E5BAFA4ECE /* Libraries */,
+				066B4AB00C1B45E6B0E313C3 /* ALL_BUILD */,
+				B3828B82E6D7428D993D00EC /* Products */,
+				2F5CF0DF6A164D36A263C57C /* Frameworks */,
+				163212EB84EE48818E3E621E /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		B3828B82E6D7428D993D00EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A78C078CA692492E980362A7 /* pluginterfaces */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBF62E78AF7A6E13883678CD /* pluginterfaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F383E06D4494BDF8E9A1B9E /* Build configuration list for PBXNativeTarget "pluginterfaces" */;
+			buildPhases = (
+				C36A1D08F7D14AE285633402 /* Sources */,
+				DDB297A93199483AB3F54129 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890098BE014A45EF91606AD0 /* PBXTargetDependency */,
+			);
+			name = pluginterfaces;
+			productName = pluginterfaces;
+			productReference = A78C078CA692492E980362A7 /* pluginterfaces */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B1563BD0E544F7FA03AB787 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1610;
+			};
+			buildConfigurationList = D3F06492270A427499AF4218 /* Build configuration list for PBXProject "smtg_pluginterfaces" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				8D533F21814A468F99464F98 /* Debug */,
+				FC4FA83968E246B092A06575 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 81D4307A84B546C58CFE1E73;
+			projectDirPath = "/Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces";
+			projectRoot = "";
+			targets = (
+				B78079776B0407684277DFDB /* ALL_BUILD */,
+				D61601B5E1D5F770DD13CC69 /* ZERO_CHECK */,
+				CBF62E78AF7A6E13883678CD /* pluginterfaces */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A345A9D3D730E4365EC27AC1 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/melons/Documents/Code/MelonsVSTS/AGain/build/vst3sdk/pluginterfaces/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/melons/Documents/Code/MelonsVSTS/AGain/build/vst3sdk/pluginterfaces
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/melons/Documents/Code/MelonsVSTS/AGain/build/vst3sdk/pluginterfaces
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		F6565CDC4028AA49A9A6CD84 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/melons/Documents/Code/MelonsVSTS/AGain/build/vst3sdk/pluginterfaces/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/melons/Documents/Code/MelonsVSTS/AGain/build/vst3sdk/pluginterfaces
+  make -f /Users/melons/Documents/Code/MelonsVSTS/AGain/build/vst3sdk/pluginterfaces/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/melons/Documents/Code/MelonsVSTS/AGain/build/vst3sdk/pluginterfaces
+  make -f /Users/melons/Documents/Code/MelonsVSTS/AGain/build/vst3sdk/pluginterfaces/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C36A1D08F7D14AE285633402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61722804AF74D018CDE14B9 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/conststringtable.cpp */,
+				7B504A3CEABF48CD80D0D070 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/coreiids.cpp */,
+				02C4651C4171496D9D111BC8 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/funknown.cpp */,
+				2347F5094A52477D9B321047 /* /Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/base/ustring.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AEEA2EA39D04514862D175B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D61601B5E1D5F770DD13CC69 /* ZERO_CHECK */;
+			targetProxy = 2570CA4C888C42329CE962DB /* PBXContainerItemProxy */;
+		};
+		890098BE014A45EF91606AD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D61601B5E1D5F770DD13CC69 /* ZERO_CHECK */;
+			targetProxy = 7F7AC1A7E0FB4369A098AA3E /* PBXContainerItemProxy */;
+		};
+		CEC6425E1321468D83AF5E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBF62E78AF7A6E13883678CD /* pluginterfaces */;
+			targetProxy = E1F51AF4F716462E81118A24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		715808D91FD242AFBAC1CEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		84CD3E48DBB54D45BC05621C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		948C3DA91DFE498288367E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/melons/Documents/Code/MelonsVSTS/AGain/build/build;
+			};
+			name = Release;
+		};
+		A9C27EC259964E0F9307076F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AF640B63A1E64EAC92991527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk;
+				SYMROOT = /Users/melons/Documents/Code/MelonsVSTS/AGain/build/build;
+			};
+			name = Debug;
+		};
+		CFE0B420A6D2433D98A850ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/melons/Documents/Code/MelonsVSTS/AGain/build/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'SMTG_USE_STDATOMIC_H=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/melons/Desktop/VST_SDK 3/vst3sdk\"","\"/Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/..\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pluginterfaces;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/melons/Documents/Code/MelonsVSTS/AGain/build/build/pluginterfaces.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D7F2CBC159C94E9F807B488B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/melons/Documents/Code/MelonsVSTS/AGain/build/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'SMTG_USE_STDATOMIC_H=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/melons/Desktop/VST_SDK 3/vst3sdk\"","\"/Users/melons/Desktop/VST_SDK 3/vst3sdk/pluginterfaces/..\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pluginterfaces;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/melons/Documents/Code/MelonsVSTS/AGain/build/build/pluginterfaces.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EBDA71E0B1B1410788D2A6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F383E06D4494BDF8E9A1B9E /* Build configuration list for PBXNativeTarget "pluginterfaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE0B420A6D2433D98A850ED /* Debug */,
+				D7F2CBC159C94E9F807B488B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9BB192B8D8E84204A53747B9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CD3E48DBB54D45BC05621C /* Debug */,
+				EBDA71E0B1B1410788D2A6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B176357296984BA582953396 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C27EC259964E0F9307076F /* Debug */,
+				715808D91FD242AFBAC1CEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D3F06492270A427499AF4218 /* Build configuration list for PBXProject "smtg_pluginterfaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF640B63A1E64EAC92991527 /* Debug */,
+				948C3DA91DFE498288367E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B1563BD0E544F7FA03AB787 /* Project object */;
+}

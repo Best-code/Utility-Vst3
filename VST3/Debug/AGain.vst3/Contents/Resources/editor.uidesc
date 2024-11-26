@@ -1,0 +1,108 @@
+{
+	"vstgui-ui-description": {
+		"version": "1",
+		"bitmaps": {
+			"Box": {
+				"path": "/Users/melons/Documents/Code/MelonsVSTS/AGain/IMGs/Box.png"
+			},
+			"Knob": {
+				"path": "/Users/melons/Documents/Code/MelonsVSTS/AGain/IMGs/Knob.png"
+			},
+			"StitchedKnob": {
+				"path": "/Users/melons/Documents/Code/MelonsVSTS/AGain/IMGs/StitchedKnob.png"
+			}
+		},
+		"fonts": {},
+		"colors": {},
+		"gradients": {},
+		"control-tags": {
+			"Gain": "102"
+		},
+		"custom": {
+			"FocusDrawing": {},
+			"VST3Editor": {
+				"Path": "/Users/melons/Documents/Code/MelonsVSTS/AGain/resource/editor.uidesc"
+			},
+			"UIGridController": {
+				"Grids": "1x 1,5x 5,10x 10,12x 12,15x 15",
+				"Size": "1, 1"
+			},
+			"UITemplateController": {
+				"SelectedTemplate": "view"
+			},
+			"UIEditController": {
+				"EditViewScale": "1",
+				"EditorSize": "0, 0, 1512, 931",
+				"SplitViewSize_0_0": "0.8563535911602210282111968808749224990606",
+				"SplitViewSize_0_1": "0.1215469613259668457683204678687616251409",
+				"SplitViewSize_1_0": "0.4883977900552486373086935600440483540297",
+				"SplitViewSize_1_1": "0.5060773480662983381250796810491010546684",
+				"SplitViewSize_2_0": "0.7784391534391534861470063333399593830109",
+				"SplitViewSize_2_1": "0.2182539682539682557305127375002484768629",
+				"TabSwitchValue": "0",
+				"Version": "1",
+				"ViewBackground": "2"
+			},
+			"UIAttributesController": {
+				"UIAttributesController": "TAG"
+			},
+			"UIViewCreatorDataSource": {
+				"SelectedRow": "0"
+			},
+			"UIColorsDataSource": {
+				"SelectedRow": "-1"
+			},
+			"UIFontsDataSource": {
+				"SelectedRow": "-1"
+			},
+			"UIBitmapsDataSource": {
+				"SelectedRow": "2"
+			},
+			"UIGradientsDataSource": {
+				"SelectedRow": "-1"
+			},
+			"UITagsDataSource": {
+				"SelectedRow": "0"
+			}
+		},
+		"templates": {
+			"view": {
+				"attributes": {
+					"background-color": "~ BlackCColor",
+					"background-color-draw-style": "filled and stroked",
+					"bitmap": "Box",
+					"class": "CViewContainer",
+					"mouse-enabled": "true",
+					"opacity": "1",
+					"origin": "0, 0",
+					"size": "512, 754",
+					"transparent": "false",
+					"wants-focus": "false"
+				},
+				"children": {
+					"CAnimKnob": {
+						"attributes": {
+							"angle-range": "270",
+							"angle-start": "225",
+							"bitmap": "StitchedKnob",
+							"class": "CAnimKnob",
+							"control-tag": "Gain",
+							"height-of-one-image": "200",
+							"inverse-bitmap": "false",
+							"knob-range": "270",
+							"opacity": "1",
+							"origin": "155, 211",
+							"size": "200, 200",
+							"sub-pixmaps": "135",
+							"transparent": "false",
+							"value-inset": "0",
+							"wants-focus": "false",
+							"wheel-inc-value": "0.01",
+							"zoom-factor": "1.5"
+						}
+					}
+				}
+			}
+		}
+	}
+}
